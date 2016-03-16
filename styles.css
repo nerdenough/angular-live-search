@@ -1,0 +1,15 @@
+body {
+  color: #333;
+  font-family: Arial, Calibri, sans-serif;
+}
+
+#search {
+  width: 280px;
+  height: 40px;
+  color: #333;
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
