@@ -3,7 +3,7 @@ body {
   font-family: Arial, Calibri, sans-serif;
 }
 
-#search {
+input {
   width: 280px;
   height: 40px;
   color: #333;
