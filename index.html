@@ -10,9 +10,9 @@
   <h1>Angular Live Search</h1>
 
   <!-- Search -->
-  <input ng-model="query" type="text" placeholder="Search">
-  <div id="search-results">
-    <div class="search-result" ng-repeat="item in data | search:query" ng-bind="item"></div>
+  <input type="text" placeholder="Search" ng-model="query" ng-focus="focus=true">
+  <div id="search-results" ng-show="focus">
+    <div class="search-result" ng-repeat="item in data | search:query" ng-bind="item" ng-click="setQuery(item)"></div>
   </div>
 
   <!-- Load JavaScript -->

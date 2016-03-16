@@ -4,6 +4,11 @@ var app = angular.module('searchModule', []);
 //
 app.controller('searchController', function($scope) {
   $scope.data = data;
+
+  $scope.setQuery = function(query) {
+    $scope.query = query;
+    $scope.focus = false;
+  };
 });
 
 // Returns the search function that will perform the filter on the data.
